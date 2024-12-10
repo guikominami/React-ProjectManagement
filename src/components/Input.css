@@ -1,0 +1,39 @@
+p{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+label{
+  font-size: smaller;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(99, 96, 96);
+}
+
+input{
+  border-style: none;
+  font-family: inherit;
+  font-size: small;
+  background-color: white;
+}
+
+textarea{
+  resize: none;
+  width: 100%;
+  padding: 0.25rem;
+  border: 0;
+  border-bottom: 3px solid #e6e6e6;
+  border-color: rgb(128, 128, 125);
+  background-color: rgb(238, 238, 238);
+  color: rgb(93, 92, 92);
+  outline-style: none;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(99, 98, 98);
+}

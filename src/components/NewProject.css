@@ -1,0 +1,42 @@
+#newproject{
+  width: 35rem;
+  margin-top: 4rem;
+  font-size: small;
+}
+
+#newproject menu{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#newproject li{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+#newproject button{
+  border-style: none;
+  font-family: inherit;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: small;
+  border-radius: 0.4rem;  
+}
+
+#newproject #cancel{
+  color: #2d2c2c;
+  background-color: white;
+}
+
+#newproject #save{
+  color: #e0dddd;
+  background-color: #3a3838;
+
+}
+
+#newproject #save:hover {
+  background-color: #222222;
+}
