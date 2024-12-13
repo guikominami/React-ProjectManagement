@@ -1,0 +1,45 @@
+.selected-project-main-area{
+  width: 25rem;
+  margin-top: 3.5rem;
+  text-align: left;
+}
+
+.selected-project-main-area header{
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #838181;
+  border-color: lightgray;
+}
+
+.selected-project-main-area button{
+  background-color: white;  
+  color: black;
+}
+
+.selected-project-main-area button:hover{
+  background-color: rgb(221, 216, 216);  
+}
+
+.title-area{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.title-area h1{
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(85, 84, 84);
+}
+
+.paragraph-date{
+  color: rgb(158, 158, 158);
+  font-size: smaller;
+  margin-top: 0.35rem;
+}
+
+.paragraph-description{
+  color: rgb(59, 57, 57);
+  white-space: pre-wrap;
+  font-size: smaller;
+}

@@ -1,16 +1,19 @@
-import PropTypes from "prop-types";
+/* eslint-disable react/prop-types */
 import "./Input.css";
+import { forwardRef } from "react";
 
-export default function Input({ label, textarea, ...props }) {
-  Input.propTypes = {
-    label: PropTypes.any.isRequired,
-    textarea: PropTypes.any.isRequired,
-  };
-
+export default forwardRef(function Input(
+  { label, textarea, ...props },
+  ref
+) {
   return (
     <p>
       <label>{label}</label>
-      {textarea ? <textarea {...props} /> : <input {...props} />}
+      {textarea ? (
+        <textarea ref={ref} {...props} />
+      ) : (
+        <input ref={ref} {...props} />
+      )}
     </p>
   );
-}
+});

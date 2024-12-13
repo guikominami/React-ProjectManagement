@@ -13,21 +13,13 @@ label{
   color: rgb(99, 96, 96);
 }
 
-input{
-  border-style: none;
-  font-family: inherit;
-  font-size: small;
-  background-color: white;
-}
-
-textarea{
+input, textarea{
   resize: none;
   width: 100%;
   padding: 0.25rem;
   border: 0;
-  border-bottom: 3px solid #e6e6e6;
-  border-color: rgb(128, 128, 125);
-  background-color: rgb(238, 238, 238);
+  border-bottom: 3px solid #838181;
+  background-color: rgb(234, 232, 232);
   color: rgb(93, 92, 92);
   outline-style: none;
   font-family: inherit;
@@ -36,4 +28,14 @@ textarea{
 input:focus {
   outline: none;
   border-color: rgb(99, 98, 98);
+}
+
+button{
+  background-color: rgb(114, 113, 113);
+  color: rgb(188, 187, 187);
+}
+
+button:hover {
+  background-color: rgb(83, 81, 81);
+  color: white;
 }

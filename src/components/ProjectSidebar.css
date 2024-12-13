@@ -1,0 +1,61 @@
+.sidebar{
+  width: 33.33%;
+  padding: 4rem 2rem 4rem 2rem;
+  background-color: rgb(17, 17, 17);
+  color: lightgray;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;  
+  width: 18rem;
+}
+  /* @media screen and (min-width: 720px) { */
+
+.sidebar h2{
+  margin-bottom: 2rem;
+  font: bold;
+  text-transform: uppercase;
+  color: lightgrey;
+  font-size:medium;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+#sidebar li{
+  list-style: none;
+}
+
+.button-project{
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  color: grey;
+  background-color: rgb(17, 17, 17);
+
+}
+
+.button-project:hover {
+  background-color: rgb(27, 26, 26);
+  color: white;
+}
+
+.buttom-project .selected-project{
+  background-color: black;
+  color: blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  #sidebar h2{
+    font-size: small;
+  }
+
+  #sidebar button{
+    font-size: xx-small;
+  }  
+}
