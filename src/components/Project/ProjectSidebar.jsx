@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Button from "./Button";
+import Button from "../Basic/Button";
 import "./ProjectSidebar.css";
 
 export default function ProjectSideBar({

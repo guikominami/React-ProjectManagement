@@ -1,0 +1,25 @@
+.new-task{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.new-task input{
+  width: 40rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: rgb(234, 232, 232);
+  color: rgb(93, 92, 92);
+}
+
+.new-task input:focus {
+  outline: none;
+  border: 2px solid #6d6b6b;
+}
+
+.button-delete{
+  padding-left: 1rem; 
+  padding-right: 1rem;
+
+}
+

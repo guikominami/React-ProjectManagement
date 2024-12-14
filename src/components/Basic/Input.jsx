@@ -7,7 +7,7 @@ export default forwardRef(function Input(
   ref
 ) {
   return (
-    <p>
+    <p className="input-paragraph">
       <label>{label}</label>
       {textarea ? (
         <textarea ref={ref} {...props} />

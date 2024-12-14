@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import noProjectImage from "../assets/no-projects.png";
-import Button from "./Button";
+import noProjectImage from "../../assets/no-projects.png";
+import Button from "../Basic/Button";
 import "./NoProjectSelected.css";
 
 export default function NoProjectSelected({ onStartAddProject }) {

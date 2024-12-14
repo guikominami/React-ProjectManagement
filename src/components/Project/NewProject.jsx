@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { useRef } from "react";
-import Input from "./Input";
+import Input from "../Basic/Input";
 import "./NewProject.css";
-import Modal from "./Modal";
-import Button from "./Button";
+import Modal from "../Basic/Modal";
+import Button from "../Basic/Button";
 
 export default function NewProject({ onAdd, onCancel }) {
   const modal = useRef();

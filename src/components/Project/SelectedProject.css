@@ -11,13 +11,14 @@
   border-color: lightgray;
 }
 
-.selected-project-main-area button{
-  background-color: white;  
+.button-delete-project{
+  background-color: white;
   color: black;
 }
 
-.selected-project-main-area button:hover{
+.button-delete-project:hover{
   background-color: rgb(221, 216, 216);  
+  color: black;
 }
 
 .title-area{
@@ -30,6 +31,7 @@
   font-size: x-large;
   font-weight: bold;
   color: rgb(85, 84, 84);
+  text-transform: capitalize;
 }
 
 .paragraph-date{

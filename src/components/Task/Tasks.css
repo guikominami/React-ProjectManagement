@@ -1,0 +1,41 @@
+.tasks h2{
+  font-size: large;
+  font-weight: bold;
+  /* border-bottom: 3px solid #838181; */
+}
+
+.tasks p{
+  color: rgb(36, 36, 36);
+  margin-bottom: 1rem;
+  font-size: smaller;
+}
+
+.tasks ul{
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: rgb(219, 217, 217);
+}
+
+.tasks li{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: smaller;
+}
+
+.tasks span{
+  align-self: center;
+  padding-left: 0.25rem;
+}
+
+.button-delete{
+  color: rgb(57, 56, 56);
+  background-color: transparent;
+}
+
+.button-delete:hover{
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+}
